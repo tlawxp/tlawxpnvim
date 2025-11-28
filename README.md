@@ -20,20 +20,20 @@ apt install nodejs
 ```
 Clone repository
 ```bash
-git clone https://github.com/tlawxp/tlawnvim
+git clone https://github.com/tlawxp/tlawxpnvim
 ```
-Sebelum masuk ke directory tlawnvim, pastikan kalian harus punya dulu directory ~/.config/nvim
+Sebelum masuk ke directory tlawxpnvim, pastikan kalian harus punya dulu directory ~/.config/nvim
 ```bash
 mkdir ~/.config
 mkdir ~/.config/nvim
 ```
 Masuk ke directory
 ```bash
-cd tlawnvim
+cd tlawxpnvim
 ```
-pindahkan file init.vim ke directory ~/.config/nvim
+pindahkan semua file/folder ke directory ~/.config/nvim
 ```bash
-mv init.vim ~/.config/nvim
+mv * ~/.config/nvim
 ```
 untuk menjalankan sebuah nvim ketik
 ```bash
@@ -53,7 +53,7 @@ untuk update plugin cukup ketik
 
 ## add plugin
 
-ingin menambahkan plugin, masuk ke directory .config/nvim edit file init.vim lalu tambahkan plugin di bagian.
+ingin menambahkan plugin, masuk ke directory .config/nvim/config edit file plugins.vim lalu tambahkan plugin di bagian.
 ```bash
 call plug#begin()
   Plug [name]
