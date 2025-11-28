@@ -1,4 +1,4 @@
-# tlawnvim
+# tlawxpnvim
 
 Configurasi nvim
 
